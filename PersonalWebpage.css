@@ -1,6 +1,7 @@
 body{
 	background-image: url(UIUC.jpg);
 	background-attachment: fixed;
+	background-size: 1673px 887px;
 }
 .main-column {
 	margin-left: 194px;
@@ -41,7 +42,7 @@ ul > li {
 	line-height: 100px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
 	font-size: 20px;
-	margin-left: auto;
+	margin-left: 194px;
 	margin-right: auto;
 	margin-bottom: 100px;
 	padding-left: 70px;
@@ -69,7 +70,7 @@ img{
 	left:0px;
 	top:0px;
 	right:auto;
-	width:1700px;
+	width:2000px;
 	background-color: white;
 	opacity: .8;
 	border-bottom: solid black 1px;
