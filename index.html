@@ -3,53 +3,133 @@
 <html>
 <head> 
 	<title>About Me</title>
-	<link href="PersonalWebpage.css" type="text/css" rel="stylesheet" />
+	<link href="webpage.css" type="text/css" rel="stylesheet" />
 </head>
-	<body>
-		<div class="topbar">
-			<div class="name">Brayden Turner</div>
-			<div class="linkswrapper">
-				<div class="toplinkactive"><a href="index.html">About Me</a></div>
-				<div class="toplink"><a href="PersonalWebpageExperience.html">Experience</a></div>
-				<div class="toplink"><a href="PersonalWebpageEducation.html">Education</a></div>
-				<div class="toplink"><a href="PersonalWebpageActivitiesAndLeadership.html">Activities &amp Leadership</a></div>
-				<div class="toplink"><a href="PersonalWebpageMiscellaneous.html">Miscellaneous</a></div>
+	<body onload="init();">
+		<div class="main-column">
+			<div id="name-header">
+				<div style="margin: 40px 100px 0px;">Brayden Turner</div>
+				<div style="margin: 35px 0px 0px 100px; height: 50px; width: 100%;">
+					<a href="resume.pdf" download id="resume">Resume</a>
+					<a href="https://www.facebook.com/braydenturner94"><img src="Images/facebook-icon.png" style="height: 100%; margin: 0px 0px 0px 30px;"></a>
+					<a href="https://twitter.com/WhoIsBrayden"><img src="Images/twitter-icon.gif" style="height: 100%; margin: 0px 0px 0px 30px;"></a>
+					<a href="https://github.com/bray94"><img src="Images/github-icon.png" style="height: 100%; margin: 0px 0px 0px 30px;"></a>
+					<a href="https://www.linkedin.com/in/brayden-turner-3b299483"><img src="Images/linkedin-icon.png" style="height: 100%; margin: 0px 0px 0px 30px;"></a>
+				</div>
 			</div>
+
+			<img id="main-image" src="Images/me.jpg" style="position:absolute; height:100%; right: 0px;">
+			<div class="link" id="about-link">About</div>
+			<div class="link" id="experience-link">Experience</div>
+			<div class="link" id="education-link">Education</div>
+			<div class="link" id="skills-link">Skills</div>
+			<div class="link" id="misc-link">Miscellaneous</div>
+			<div class="link" id="contact-link">Contact</div>
+
+			<div id="about-section" class="sections">
+				<img src="Images/back-arrow.png" class="back-arrow" style="width:80px;position:fixed; top: 30px;cursor: pointer;">
+				<p> 
+					d
+				</p>
+			</div>
+
+			<div id="experience-section" class="sections">
+				<img src="Images/back-arrow.png" class="back-arrow" style="width:80px;position:fixed; top: 30px;cursor: pointer;">
+				<div style="font-size: 35px; text-align: left; padding-left: 100px; margin-top: 30px;">Inspired by Nature</div>
+					<p>
+					During my senior year of college, a few friends and I started a solar company called Inpried by Nature. Our goal with the company is to get solar to those who can't afford it or who don't really know about it by renting their space for the use of producing solar energy. We are working to bring solar to a whole different area of the population that has traditionally been left out by making the process to get solar as easy as possible. We are also working to observe and map out an area for solar through apps as to expediate the process. We have gotten a little bit of funding and went through the interview process with world renown Y Combinator. My job for INspired by Nature is Chief Technology Officer. I have been tasked with creating the wesbite and handling the software/technology that our company needs. I taught myself how to web program and create a website from scratch, as well as turn an old computer in to a server to host our website. I have started teaching myself how to program for mobile and develop our app to allow homewoners to take pictures of their home and use an algorithm to dteremine the size of their home and if it's right for solar. This startup has forced me to learn a lot in a short amount of time and realize what it really takes to take a project like this to market.
+					</p> 
+				<div style="margin-top: 50px;">
+					<div style="font-size: 35px; text-align: left; padding-left: 100px;">Wolfram Research Inc.</div>
+					<p>
+					I held two internships through Wolfram Research Inc. in different departments with the same responsibility. My job 	was technical documentation and I was in charge of taking the documentation for products writtten by engineers and turning it in to something that anyone could read and understand. I also handled contracts with external partners that required protocols in place for shared data and various other aspects of the company. I was chosen because I had a background in science but also my inetrests and knowledge about the non-technical. My time at Wolfram caused me to take up an interest in coding and caused me to teach myself the fundamentals of computer science and the pyhton programming language. 
+					</p> 
+				</div>
+				<div style="margin-top: 50px;">
+					<div style="font-size: 35px;text-align: left; padding-left: 100px;">Barnes & Noble</div>
+					<p>
+					I worked at Barnes & Noble through my first two years of college to help offset some of the costs of my education. I worked all around the store and developed various skills through my time there. I handled cashiering and customer service as well as handling technical questions and troubleshooting for the Nook Tablet/E-reader. I was able to handle explaining rather technical issues to customers that had no background in technology which helped lead to my internships at Wolfram Research.
+					</p> 
+				</div>
+			</div>
+
+			<div id="education-section" class="sections">
+				<img src="Images/back-arrow.png" class="back-arrow" style="width:80px;position:fixed; top: 30px;cursor: pointer;">
+				<img src="Images/UIUC.jpg" style="width: 100%;">
+				<div style="font-size: 40px; padding-left: 100px; text-align: left; margin-top: 30px">University of Illinois Urbana-Champaign</div>
+				<p>
+				I attended the University of Illinois for my undergrad and earned a Bachelors of Engineering in Physics with a concentration in Technology Entrepreneurship, and a minor in Computer Science. When I entered college I expected to go on and get my PhD and do research in physics, but after 4 years I now know that is far from my dream. I've grown to take an interest in many other fields from computer science to engineering law to entrepreneusrhsip. I enjoy how everything works together and working to create something directly for people. My interests are far reaching and I'm contantly finding new things to learn and I can owe that to the U of I. I have learned from some of the smartest professors in the world and studied along side some of the brightest minds in their field, and I have taken so much from all of these people.
+				</p>
+				<div style="margin: 50px 0px 20px; font-size: 35px; width: 100%; text-align: center;">Coursework</div>
+				<div style="font-size: 30px; text-align: left; padding-left: 100px; text-decoration: underline;">Computer Science</div>
+				<p>
+					Systems programming, Data Structures, Artifical Intelligence, Probability in Computer Science, and Discrete Mathematics
+				</p>
+				<div style="font-size: 30px;text-align: left; padding-left: 100px; text-decoration: underline;">Physics</div>
+				<p>
+					Quantum Mechanics, Classical Mechanics, Electricity and Magnetism, Special Relativity/Math Applications, and Optics
+				<div style="font-size: 30px; text-align: left; padding-left: 100px; text-decoration: underline;">Mathematics</div>
+				<p>
+					Calculus, Differential Equations, Linear Algebra, and Probability and Statistics
+				</p>
+				<div style="font-size: 30px; text-align: left; padding-left: 100px; text-decoration: underline;">Entrepreneurship</div>
+				<p>
+					Engineering Law, Entrepreneuship/Startup Law, Creativity Innovation and Vision, and Lectures in Entrepreneurship
+				</p>
+				<div style="margin: 50px 0px 20px; font-size: 35px; width: 100%; text-align: center;">Organizations</div>
+				<div style="font-size: 30px; text-align: left; padding-left: 100px; text-decoration: underline;">Physics Student Advisory Board</div>
+				<p>
+					stuff
+				</p>
+				<div style="font-size: 30px; text-align: left; padding-left: 100px; text-decoration: underline;">Entrecorps</div>
+				<p>
+					stuff
+				</p>
+			</div>
+
+			<div id="skills-section" class="sections">
+				<img src="Images/back-arrow.png" class="back-arrow" style="width:80px;position:fixed; top: 30px;cursor: pointer;">
+				<div style="margin: 50px 100px 20px; font-size: 35px; width: 100%; text-align: left;">Technical</div>
+				<p>
+					<ul>
+						<li>Java</li>
+						<li>C</li>
+						<li>C++</li>
+						<li>Javascript</li>
+						<li>Python</li>
+						<li>HTML/CSS</li>
+						<li>Bash</li>
+						<li>Linux/UNIX</li>
+					</ul>
+				</p>
+				<div style="margin: 50px 100px 20px; font-size: 35px; width: 100%; text-align: left;">Non-technical</div>
+				<p>
+					<ul>
+						<li>Research</li>
+						<li>Word</li>
+						<li>Powerpoint</li>
+					</ul>
+				</p>
+			</div>
+
+			<div id="misc-section" class="sections">
+				<img src="Images/back-arrow.png" class="back-arrow" style="width:80px;position:fixed; top: 30px;cursor: pointer;">
+				<p style="font-size: 25px;">
+					While I am a person who loves learning and is constantly trying to teach myself new things, I also have many hobbies and interests outside of that. I love to cook. <img src="Images/cooking-icon.png" style="float: right; width: 200px;"> I'm always trying to find new recipes and try different combinations of food and seeking out new restaurants. I enjoy reading a variety of books. I read everything from textbooks on varying subjects to nonfiction and fiction books as well. <img src="Images/books.png" style="float: left; width: 150px; padding-right: 20px;">I love to read science fiction and it has always intrigued me that every few years the stuff of science fiction becomes a reality. I have surrounded myself with friends that can have deep conversations and challenge my ideas. I enjoy being outdoors going on hikes or playing all kinds of different sports. <img src="Images/active-icon.png" style="float: right; width: 150px;">I've played soccer and golf nearly all my life and I'm constantly trying to find new ways to be active. I've tried my best to make myself a well rounded person where I can work hard and concentrate on my current project, but I can enjoy those around me and find new friends and new interests. Knowing your field and skills is great but being able to accept new experiences is just as important.
+				</p>
+			</div>
+
+			<div id="contact-section" class="sections">
+				<!-- <img src="Images/back-arrow.png" class="back-arrow" style="width:80px;position:fixed; top: 30px; cursor: pointer;z-index: 10;"> -->
+				<div style="margin: 35px 0px 0px 110px">Email: braydenturner94@gmail.com</div>
+				<div style="margin: 35px 0px 0px 110px">Phone: 217-474-5440</div>
+			</div>
+
+
+		<script type="text/javascript" src = "webpage.js"></script>
+		<script type="text/javascript" src = "jquery.js"></script>
+
 		</div>
-	
-			
-		<div  class="main-column">
-			<br>
-			<h2>About Me</h2>
-
-			<img class="me" src="me.jpg">
-
-			<p>    There is only so much you can fit on a resume, and it is always so one dimensional. This about me section won't capture the complete person I am, but it will do better than a resume could. As it states I am an undergraduate at the University of Illinois Urbana-Champaign. I will graduate here with a degree in Engineering Physics, but I have learned much more than just equations and physics concepts. The way I look at the world and tackle problems is leaps and bounds different than when I came in here as a Freshman. I have learned creative ways to break problems down and observe them in ways that a lot of degrees don't teach. I have learned how to teach myself abstract concepts in varying areas in order to complete assignments, which I have taken even further to teach myself concepts in varying from business models to computer science. The fundamentals I have been taught and the experience I've gained is invaluable.
-			</p>
-
-
-
-			<p>    I thought when I entered this degree that I was going to go on to do research in academia, but after a few research groups I realized that was not what I wanted to do with my life. I loved solving problems, but not in a lab. I loved solving problems for people out in the real world. I was intrigued by companies like Google, Facebook, and other technology companies that looked at really simple problems and created entire industries around them. It fascinated me what they could do starting out with teams of a few people and growing in to some of the world's largest companies. I realized I didn't want to work for a university, but I instead wanted to work for one of these companies that were truly affecting the world and how people function at fundamental level.
-			</p>
-
-			<p>    I love learning. I am constantly checking news sites, looking up various unfamiliar words or things I hear, or teaching myself a new skill or area. I have recently been teaching myself concepts pertaining to computer science like different programming languages and operating system fundamentals. Before that I was teaching myself the concepts behind the stock market like options, futures, and the Black-Scholes equation. I feel like I can never truly know enough, and I'm working to learn something about everything.
-			</p>
-		</div>
-
-		<div class="bottombar">
-
-			<p id="contact">
-				<br>braydenturner94@gmail.com
-			</p>
-			<p id="contact">
-				<br>217-474-5440
-			</p>
-			<a href="https://www.facebook.com/braydenturner94"><img src="facebook-icon.png" alt="facebook"></a>
-			<a href="https://twitter.com/WhoIsBrayden"><img src="twitter-icon.png" alt="twitter"></a>
-			<a href="https://github.com/bray94"><img src="github-icon.png" alt="github"></a>
-
-		</div>
-
 	</body>
 
 </html>
