@@ -1,0 +1,131 @@
+html, body{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light";
+	position: absolute;
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.main-column {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+}
+p , ul{
+	line-height: 2em;
+	padding: 0px 20px 0px 100px;
+	font-size: 25px;
+}
+#name-header{
+	width: 0%;
+	height: 33.33333%;
+	top: 0px;
+	position: absolute;
+	text-align: left;
+	color: white;
+	display: inline-block;
+	font-size: 50px;
+	background-color: rgb(25,141,193);	
+}
+.link{
+	width: 0%;
+	position: absolute;
+	float: left;
+	text-align: center;
+	height: 33.33333%;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	cursor: pointer;
+}
+#about-link{
+	left: 0px;
+	top: 33.33333%;
+	background-color: rgb(36,190,129);
+}
+#experience-link{
+	left: 0px;
+	top: 33.33333%;
+	background-color: rgb(254, 157, 51);
+}
+#education-link{
+	left: 0px;
+	top: 33.33333%;
+	background-color: rgb(244,85,77);	
+}
+#skills-link{
+	left: 0px;
+	top: 66.66666%;
+	background-color: rgb(251,101,52);	
+}
+#misc-link{
+	left: 0px;
+	top: 66.66666%;
+	background-color: rgb(25,141,193);	
+}
+#contact-link{
+	left: 0px;
+	top: 66.66666%;
+	background-color: rgb(36,190,129);	
+}
+.sections{
+	height: 100%;
+	width: 0%;
+	color: white;
+	position: absolute;
+	z-index: -2;
+	top: 0px;
+	left: 0px;
+	overflow: scroll;
+}
+#about-section{
+	background-color: rgb(36,190,129);
+}
+#experience-section{
+	background-color: rgb(254, 157, 51);
+}
+#education-section{
+	background-color: rgb(244,85,77);	
+}
+#skills-section{
+	background-color: rgb(251,101,52);	
+}
+#misc-section{
+	background-color: rgb(25,141,193);	
+}
+#contact-section{
+	width: 0%;
+	height: 33.33333%;
+	top: 0px;
+	position: absolute;
+	text-align: left;
+	color: white;
+	display: inline-block;
+	font-size: 40px;
+	background-color: rgb(25,141,193);	
+	z-index: -1;
+}
+a#resume:link, a#resume:visited{
+	font-size: 30px;
+	float: left;
+	text-decoration: none;
+	color: rgb(25,141,193);	
+	background-color: white;
+	height: 100%;
+	line-height: 50px;
+	padding: 0px 10px;
+}
+#social-links{
+	position: relative;
+	width: 100%;
+	left: 0px;
+	margin-top: 10px;
+	z-index: 13;
+}
+
